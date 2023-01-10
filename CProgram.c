@@ -1024,7 +1024,7 @@ int i=5;
 
 
 // wap to copy all element from one array to another array?
-#inclue<stdio.h>
+#include<stdio.h>
           void main(){
               
    int i,n;
