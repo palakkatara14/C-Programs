@@ -28,7 +28,7 @@ int n;
 }
 //Q WAP to read and print element in array?
 
-#inclide<stdio.h>
+#include<stdio.h>
 void main()
  int n;
     scanf("%d",&n);
@@ -43,8 +43,9 @@ void main()
         printf("%d ",a[i]);
     }
 //Q WAP to print negative element in an array?
-#inclide<stdio.h>
-
+#include<stdio.h>
+void main()
+{
  int n;
     scanf("%d",&n);
     int a[n];
@@ -63,7 +64,9 @@ void main()
         printf("%d",a[i]);
     }
 
-#inclide<stdio.h>
+#include<stdio.h>
+ void main()
+ {
 
  int n,sum=0;
     scanf("%d",&n);
@@ -83,8 +86,9 @@ void main()
     }
     printf("%d",sum);
 //Q WAP to find maximum and minimum element from an array?
-#inclide<stdio.h>
-
+#include<stdio.h>
+void main(){
+    
   int n;
     scanf("%d",&n);
     int a[n];
@@ -110,8 +114,8 @@ void main()
     }
     printf("%d %d",max,min);
 //Q  WAP to print second largest element of an array/
-#inclide<stdio.h>
-
+#include<stdio.h>
+void main(){
  int n;
     scanf("%d",&n);
     int a[n];
@@ -139,7 +143,8 @@ void main()
     }
     printf("%d",max2);
 //Q WAP TO PRINT TOTAL COUNT OF EVEN AND ODD ELEMENT IN AN ARRAY?
-#inclide<stdio.h>
+#include<stdio.h>
+    void main(){
 
  int n;
     scanf("%d",&n);
@@ -168,7 +173,8 @@ void main()
     printf("%d %d",even,odd);
      
 // WAP to print count of negative element of an array?
-#inclide<stdio.h>
+#include<stdio.h>
+        void main(){
 
  int n;
     scanf("%d",&n);
@@ -193,8 +199,8 @@ void main()
     }
     printf("%d",negative);
 // WAP TO COPY AN ARRAY ELEMENT TO ANOTHER ARRAY?
-#inclide<stdio.h>
-
+#include<stdio.h>
+void main(){
   int n;
     scanf("%d",&n);
     int a[n];
@@ -220,9 +226,9 @@ void main()
     }
    
    
-   Q WAP to print 2d array?
+  // Q WAP to print 2d array?
 #include<stdio.h>
-ANS
+void main(){
    int n,m;
    scanf("%d %d",&n,&m);
    int a[n][m];
@@ -244,10 +250,10 @@ ANS
        printf("\n");
        
    }
-Q WAP to substract to matrix?
+// WAP to substract to matrix?
 #include<stdio.h>
-
-ANS  int n,m;
+void main(){
+  int n,m;
    scanf("%d %d",&n,&m);
    int a1[n][m];
    for(int i=0;i<n;i++)
@@ -291,10 +297,10 @@ ANS  int n,m;
        
    }
    
-Q WAP TO ADD TO MATRIX?
+//Q WAP TO ADD TO MATRIX?
 #include<stdio.h>
-
-ANS  int n,m;
+void main(){
+  int n,m;
    scanf("%d %d",&n,&m);
    int a1[n][m];
    for(int i=0;i<n;i++)
@@ -338,10 +344,10 @@ ANS  int n,m;
        
    }
        
-Q WAP TO find whether matrix is equal or not ?
+//Q WAP TO find whether matrix is equal or not ?
 #include<stdio.h>
-
-ANS int n,m;
+void main(){
+ int n,m;
    scanf("%d %d",&n,&m);
    int a1[n][m];
    for(int i=0;i<n;i++)
@@ -394,8 +400,8 @@ ANS int n,m;
 
 Q WAP to find trace of matrix?
 #include<stdio.h>
-
-ANS int n,m;
+    void main(){
+ int n,m;
    scanf("%d %d",&n,&m);
    int a1[n][m];
    for(int i=0;i<n;i++)
@@ -424,10 +430,11 @@ ANS int n,m;
    }
    printf("%d",sum);
 
-Q WAP a program to print sum of diagonal element of matrix?
+//Q WAP a program to print sum of diagonal element of matrix?
 #include<stdio.h>
+    void main(){
 
-ANS  int n,m;
+ int n,m;
    scanf("%d %d",&n,&m);
    int a[n][m];
    for(int i=0;i<n;i++)
@@ -456,10 +463,10 @@ ANS  int n,m;
        
    }
    printf("%d",sum);
-Q WAP to print sum of minor dioagonal element?
+//Q WAP to print sum of minor dioagonal element?
 #include<stdio.h>
-
-ans int n,m;
+void main(){
+ int n,m;
    scanf("%d %d",&n,&m);
    int a[n][m];
    for(int i=0;i<n;i++)
@@ -492,10 +499,11 @@ ans int n,m;
    }
    printf("%d",sum);
 
-Q WAP to print upper tringular matrix ?
+//Q WAP to print upper tringular matrix ?
 #include<stdio.h>
+    void main(){
 
-ANS  int n,m;
+ int n,m;
    scanf("%d %d",&n,&m);
    int a[n][m];
    for(int i=0;i<n;i++)
@@ -532,10 +540,10 @@ ANS  int n,m;
        
    }
    
-Q WAP to print lower tringular matrix ?
+//Q WAP to print lower tringular matrix ?
 #include<stdio.h>
-
-ans int n,m;
+void main(){
+int n,m;
    scanf("%d %d",&n,&m);
    int a[n][m];
    for(int i=0;i<n;i++)
@@ -570,10 +578,10 @@ ans int n,m;
        }
        printf("\n");
        
-Q WAP to print sum of lower tringular matrix?
+//Q WAP to print sum of lower tringular matrix?
 #include<stdio.h>
-
-ans int n,m;
+void main(){
+ int n,m;
    scanf("%d %d",&n,&m);
    int a[n][m];
    for(int i=0;i<n;i++)
@@ -607,10 +615,11 @@ ans int n,m;
    }
    printf("%d",sum);
 
-Q WAP to print sum of upper trianguar matrix?
+//Q WAP to print sum of upper trianguar matrix?
 
-ans
+
 #include<stdio.h>
+    void main(){
 
  int n,m;
    scanf("%d %d",&n,&m);
@@ -646,9 +655,10 @@ ans
    }
    printf("%d",sum);
    
-Q WAP to transpose of a matrix?
-ans
+//Q WAP to transpose of a matrix?
+
 #include<stdio.h>
+      void main(){
 
  int n,m;
    scanf("%d %d",&n,&m);
@@ -690,10 +700,10 @@ ans
        }
        printf("\n");
    }
-Q WAP to print whether matrix is sparse or not ?
-ans
-#include<stdio.h>
+//Q WAP to print whether matrix is sparse or not ?
 
+#include<stdio.h>
+void main(){
  int n,m;
    scanf("%d %d",&n,&m);
    int a[n][m];
@@ -732,10 +742,10 @@ ans
    printf("sparse matrix");
    else
    printf("not sparse matrix");
-Q WAP to print whether matrix is identity matrix or not?
-ans
-#include<stdio.h>
+//Q WAP to print whether matrix is identity matrix or not?
 
+#include<stdio.h>
+void main(){
  int n,m;
    scanf("%d %d",&n,&m);
    int a[n][m];
@@ -781,10 +791,10 @@ ans
    else
    printf("not identity matrix");
    
-Q WAP to print matrix is symmetric or not?
-ans
-#include<stdio.h>
+//Q WAP to print matrix is symmetric or not?
 
+#include<stdio.h>
+void main(){
   int n,m;
    scanf("%d %d",&n,&m);
    int a[n][m];
@@ -825,10 +835,11 @@ ans
    printf("summetric matrix");
    else
    printf("not symmetric matrix");
-Q WAP to sclar product in a matrix?
-ANS 
+//Q WAP to sclar product in a matrix?
+
 
 #include<stdio.h>
+    void main(){
  int n,m;
    scanf("%d %d",&n,&m);
    int a[n][m];
@@ -866,10 +877,11 @@ ANS
        }
        printf("\n");
    }
-Q wap to print multiple of two matrix?
-ans
+//Q wap to print multiple of two matrix?
+
 
 #include<stdio.h>
+        void main(){
   int n,m;
    scanf("%d %d",&n,&m);
    int a[n][m];
@@ -923,8 +935,9 @@ ans
        }
        printf("\n");
    }
-  wap to read and print element of array?                      
- 
+ // wap to read and print element of array?                      
+ #include<stdio.h>
+            void main(){
                                                                      
 int i=10;
     int a[i];
@@ -937,8 +950,9 @@ int i=10;
     {
         printf("%d\n",a[i]);
     }
-Q2 wap to print all negative no. in array and also print count?
-
+// wap to print all negative no. in array and also print count?
+#include<stdio.h>
+   void main(){
 int n,i,count=0;
 printf("enter the number");
 scanf("%d",&n);
@@ -956,8 +970,9 @@ for(i=0;i<n;i++)
 printf("%d",count);
 
 }
-Q3 wap to print sum of array element?
-
+// wap to print sum of array element?
+#include<stdio.h>
+  void main(){            
  int i=5,sum=0;
    int a[i];
    for(i=0;i<5;i++)
@@ -967,8 +982,9 @@ Q3 wap to print sum of array element?
        
    }
    printf("%d",sum);
-Q4 wap to program to print count of even and odd number?
-
+// wap to program to print count of even and odd number?
+      #include<stdio.h>
+void main(){
 int i=5,count=0,codd=0;
   int a[i];
   for(i=0;i<5;i++)
@@ -982,10 +998,12 @@ int i=5,count=0,codd=0;
       codd=codd+1;
   }
   printf("%d\n",count);
-  printf("%d",codd);\
+  printf("%d",codd);
 
-
-Q5 wap to reverse a an array?
+}
+// wap to reverse a an array?
+      #include<stdio.h>
+      void main(){
 int i=5;
   int a[i];
   for(i=0;i<5;i++)
@@ -1005,8 +1023,10 @@ int i=5;
 
 
 
-Q6 wap to copy all element from one array to another array?
-
+// wap to copy all element from one array to another array?
+#inclue<stdio.h>
+          void main(){
+              
    int i,n;
    scanf("%d",&n);
    int arr1[i];
